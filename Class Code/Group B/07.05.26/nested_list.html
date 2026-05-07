@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+
+    <style>
+        .tea {
+            list-style-type: lower-alpha;
+        }
+
+        .raw {
+            list-style-type: lower-roman;
+        }
+
+        li {
+            background-color: yellowgreen;
+        }
+
+        ul, ol {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h3>Drinks Item</h3>
+
+    <ol>
+        <li>Coffee</li>
+        <li>Tea 
+            <ol class="tea">
+                <li>Green Tea</li>
+                <li>Raw Tea
+                    <ol class="raw">
+                        <li>Black Tea</li>
+                        <li>Red Tea</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li>Milk</li>
+    </ol>
+
+    <ol start="4">
+        <li>Juice
+            <ul>
+                <li>Mango</li>
+                <li>Orange</li>
+            </ul>
+        </li>
+        <li>Soft Drinks
+            <ul>
+                <li>Mojo</li>
+                <li>Speed</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
